@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Skills - Arundhati Tak</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Arundhati <span>Tak</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="certificates.html">Certificates</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="certificates.html">Certificates</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="skills-section">
+        <h1 class="skills-title" data-aos="fade-up" data-aos-duration="1500">My Skills</h1>
+        <div class="skills-container">
+            <div class="skill" data-aos="fade-right" data-aos-duration="1200">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python & PySpark</h3>
+                <p>Proficient in Python and PySpark for scalable data engineering and automation.</p>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="1200">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL & Data Warehousing</h3>
+                <p>Expert in SQL, dimensional modeling, and data warehouse architecture.</p>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1200">
+                <i class="fa-brands fa-microsoft"></i>
+                <h3>Microsoft Fabric & Databricks</h3>
+                <p>Skilled in building data pipelines and analytics solutions using Fabric and Databricks.</p>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="1200">
+                <i class="fa-solid fa-server"></i>
+                <h3>ETL & Data Pipelines</h3>
+                <p>Experience in developing ETL processes using ADF, SSIS, and Spark-based workflows.</p>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1200">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Cloud Computing (Azure & AWS)</h3>
+                <p>Hands-on experience in cloud-based data engineering with Azure Data Lake and AWS services.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
